@@ -1,0 +1,64 @@
+.header .navbar,
+.footer{
+    background-color: lightcyan !important;
+}
+
+.header .navbar-brand{
+    width: 10%;
+}
+
+.navigation,
+.empty{
+    background-color: snow;
+}
+
+.category__list{
+    list-style-type: none;
+    background-color: white;
+}
+
+.category__link{
+    text-decoration: none;
+    color: black;
+}
+
+.card__buybtn{
+    background-color: gainsboro;
+}
+
+.bg__gainsboro{
+    background-color: gainsboro;
+}
+
+.item-img .item-img__sub a{
+    width: 24%;
+}
+
+.item-img .item-img__sub a:hover {
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 600px) {
+    .item-img{
+        width: 100%;
+    }
+
+    .item-info{
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .item-img .item-img__sub a {
+        width: 23%;
+    }
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.item-img .w-100{
+    height: 17vw;
+}
